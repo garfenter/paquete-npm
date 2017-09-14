@@ -1,0 +1,31 @@
+{
+  "name": "paquete",
+  "version": "0.0.1",
+  "description": "Ejemplo de como crear un paquete para NPM",
+  "main": "dist/src/paquete.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src/paquete.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garfenter/paquete-npm.git"
+  },
+  "keywords": [
+    "test",
+    "npm",
+    "deploy"
+  ],
+  "author": "Juan Luis Cano <garfenter@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garfenter/paquete-npm/issues"
+  },
+  "homepage": "https://github.com/garfenter/paquete-npm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
